@@ -1,7 +1,6 @@
 tmuxconf
 ========
 
-tmux conf repository
 
 Use the tmux config file for the following features:
 * bind ctrl+a instead of ctrl+b
@@ -14,6 +13,7 @@ Use the tmux config file for the following features:
 ## Re-Attach Alias
 use alias to reattach to running tmux sessions -
 add the next line to `.bashrc`:
+
 ```alias atmux="tmux attach"```
 
 
