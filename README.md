@@ -1,4 +1,4 @@
-tmuxconf
+tmux.conf
 ========
 
 
@@ -16,4 +16,7 @@ add the next line to `.bashrc`:
 
 ```alias atmux="tmux attach"```
 
-
+## How to use
+Copy ```tmux.conf``` file to home directory and rename the file to: ```.tmux.conf```
+tmux automatically loads ```.tmux.conf``` on startup
+to reload the conf file use ```ctrl + a``` (a is my prefix key) and then run: ```:source-file ~/.tmux.conf``` from the tmux command line (":" will focus on the command line)
